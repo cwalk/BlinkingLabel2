@@ -15,16 +15,16 @@ Pod::Spec.new do |s|
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+#   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description      = <<-DESC
                         This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.
                        DESC
 
-  s.homepage         = "https://github.disney.com/WALKC120/BlinkingLabel"
+  s.homepage         = "https://github.com/cwalk/BlinkingLabel"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Walker, Clayton J." => "Clayton.J.Walker@disney.com" }
-  s.source           = { :git => "https://github.disney.com/WALKC120/BlinkingLabel.git", :tag => s.version.to_s }
+  s.author           = { "Walker, Clayton J." => "claytonwalkerucf@knights.ucf.edu" }
+  s.source           = { :git => "https://github.com/cwalk/BlinkingLabel.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
